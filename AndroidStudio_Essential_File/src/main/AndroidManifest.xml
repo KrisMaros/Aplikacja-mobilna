@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krzychu_x.restfulpostrequest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GroceryShoppingSystem"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StoreLocation1" />
+        <activity android:name=".StoreLocation2" />
+        <activity android:name=".StoreLocation3" />
+        <activity android:name=".Create1" />
+        <activity android:name=".Delete1" />
+        <activity android:name=".Edit1" />
+        <activity android:name=".Create2" />
+        <activity android:name=".Delete2" />
+        <activity android:name=".Edit2" />
+        <activity android:name=".Create3" />
+        <activity android:name=".Delete3" />
+        <activity android:name=".Edit3"></activity>
+    </application>
+
+</manifest>
